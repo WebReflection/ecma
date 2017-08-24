@@ -29,4 +29,6 @@ will be forced to use the fallback.
 
 As easy as that.
 
+[Live test](https://webreflection.github.io/ecma/) <sup><sub>(it shows after one second on purpose)</sub></sup>
+
 [WTFPL License](https://en.wikipedia.org/wiki/WTFPL)
