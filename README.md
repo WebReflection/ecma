@@ -23,7 +23,7 @@ will be forced to use the fallback.
   A = M.parentNode.insertBefore(E.createElement(C), M);
   'noModule' in M ?
     (A.type = 'module', A.src = M.dataset.module):
-    A.src = M.getAttribute('data-src')
+    (A.defer = 1, A.src = M.getAttribute('data-src'))
 }(document,'script')</script>
 ```
 

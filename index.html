@@ -12,7 +12,7 @@
     <script
       data-module="modern.js"
       data-src="bundle.js"
-    >!function(E,C,M,A){M=E.getElementsByTagName(C)[0];A=M.parentNode.insertBefore(E.createElement(C),M);'noModule'in M?(A.type='module',A.src=M.dataset.module):A.src=M.getAttribute('data-src')}(document,'script')</script>
+    >!function(E,C,M,A){M=E.getElementsByTagName(C)[0];A=M.parentNode.insertBefore(E.createElement(C),M);'noModule'in M?(A.type='module',A.src=M.dataset.module):(A.defer=1,A.src=M.getAttribute('data-src'))}(document,'script')</script>
     <script>this.AFTER=true;</script>
   </head>
   <body></body>
