@@ -3,7 +3,7 @@ The simplest way to load ES modules or bundled fallbacks
 
 - - -
 
-### How to
+## How to
 
 Just put on top of your HTML page (even before polyfills) the script
 tag with the following attributes:
@@ -29,6 +29,10 @@ will be forced to use the fallback.
 
 As easy as that.
 
-[Live test](https://webreflection.github.io/ecma/) <sup><sub>(it shows after one second on purpose)</sub></sup>
 
-[WTFPL License](https://en.wikipedia.org/wiki/WTFPL)
+### Compatibility
+
+IE6 and above. [Live test](https://webreflection.github.io/ecma/) <sup><sub>(it shows after one second on purpose)</sub></sup>
+
+
+#### [WTFPL License](https://en.wikipedia.org/wiki/WTFPL)
