@@ -20,7 +20,7 @@ will be forced to use the fallback.
   data-src="bundle.js"
 >!function(E,C,M,A){
   // if you don't care about full backward compatibility
-  // M = E.getElementsByTagName(C + '[data-module]');
+  // M = E.querySelector(C + '[data-module]');
   M = E.getElementsByTagName(C)[0];
   A = M.parentNode.insertBefore(E.createElement(C), M);
   'noModule' in M ?
