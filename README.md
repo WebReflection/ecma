@@ -45,9 +45,8 @@ Meanwhile, the bundled fallback will still work as it's already the case today.
 
 **Desktop**
 
-  * Safari
-  * WebKit (GNOME Web, WebKitGTK)
-  * others with experimental flags on
+  * WebKit (GNOME Web, WebKitGTK+)
+  * Chrome behind experimental flags
 
 **Mobile**
 
