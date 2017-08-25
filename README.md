@@ -19,12 +19,14 @@ will be forced to use the fallback.
   data-module="modern.js"
   data-src="bundle.js"
 >!function(E,C,M,A){
+  // if you don't care about full backward compatibility
+  // M = E.getElementsByTagName(C + '[data-module]');
   M = E.getElementsByTagName(C)[0];
   A = M.parentNode.insertBefore(E.createElement(C), M);
   'noModule' in M ?
     (A.type = 'module', A.src = M.dataset.module):
     (A.defer = 1, A.src = M.getAttribute('data-src'))
-}(document,'script')</script>
+}(document, 'script')</script>
 ```
 
 As easy as that.
