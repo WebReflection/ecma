@@ -36,5 +36,22 @@ As easy as that.
 
 IE6 and above. [Live test](https://webreflection.github.io/ecma/) <sup><sub>(it shows after one second on purpose)</sub></sup>
 
+### ES6 / ES2015 Browsers
+
+A list of browsers that will use native modules, hence fully compatible with ES2015 syntax.
+
+This list destiny it to keep growing over time.
+Meanwhile, the bundled fallback will still work as it's already the case today.
+
+**Desktop**
+
+  * Safari
+  * WebKit (GNOME Web, WebKitGTK)
+  * others with experimental flags on
+
+**Mobile**
+
+No browser as of today ships with ES2015 modules support.
+
 
 #### [WTFPL License](https://en.wikipedia.org/wiki/WTFPL)
