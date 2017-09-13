@@ -46,7 +46,7 @@ Meanwhile, the bundled fallback will still work as it's already the case today.
 **Desktop**
 
   * WebKit (GNOME Web, WebKitGTK+)
-  * Chrome behind experimental flags
+  * Chrome / Chromium
 
 **Mobile**
 
